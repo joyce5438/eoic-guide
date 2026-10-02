@@ -1,0 +1,454 @@
+{
+  "zh-Hant": {
+    "file": "index.html",
+    "title": "企業營運與創新週期分析",
+    "tag": "EOIC 使用指南",
+    "lead": "從收到 ZIP 到完成第一份研究。",
+    "desc": "用多季財報與電話會議，判斷創新正在加速、減速、遲滯或修復。營收成長不等於創新；漂亮利潤率也不等於創新成功。",
+    "nav": [
+      "會得到什麼",
+      "建議模型",
+      "安裝方法",
+      "更多 AI 服務安裝方式",
+      "如何啟動技能",
+      "使用範例",
+      "更新與授權"
+    ],
+    "start": "開始安裝",
+    "private": "ZIP 由 Austin 在私人群組提供，本頁不提供下載。",
+    "ver": "目前技能版本",
+    "copy": "複製指令",
+    "copied": "已複製",
+    "failed": "請選取文字後手動複製",
+    "outcomes": [
+      "整體營運與各條創新路徑的階段、方向、速度。",
+      "多季營收季增、毛利率變化、營業利益率、自由現金流，以及季節性比較。",
+      "管理層重複追蹤的營運指標，與投入 → 採用 → 變現 → 利潤 → 現金流的斷點。",
+      "最早警訊、確認季度、最強反證及可觀察的改判條件。",
+      "再投資率與投入資本報酬率的計算、公式與口徑；資料不足時明列限制。"
+    ],
+    "outnote": "不自動提供估值、股價預測或買賣建議。",
+    "modelnote": "請在 AI 服務的模型設定中自行選擇。技能不會自動更換模型；不同模型的結果可能有差異。",
+    "modelheaders": [
+      "定位",
+      "模型",
+      "推理強度"
+    ],
+    "modelrows": [
+      [
+        "優先建議",
+        "GPT-6.1 sol",
+        "medium 或 low"
+      ],
+      [
+        "目前測試達高標",
+        "Opus5.5",
+        "high"
+      ],
+      [
+        "尚不穩定但堪用",
+        "Grok4.7 / Gemini 3.1 pro",
+        "high"
+      ]
+    ],
+    "modelsource": "上述為作者目前的使用建議與測試評價。",
+    "steps": [
+      [
+        "取得 ZIP 並解壓",
+        "從私人群組下載 Austin 提供的版本。Windows 可用「全部解壓縮」；Mac 可雙擊 ZIP。"
+      ],
+      [
+        "找到技能資料夾",
+        "找到同一層包含 SKILL.md、METHODOLOGY.md、VERSION 的資料夾。保留整個資料夾，不要只拿 SKILL.md。"
+      ],
+      [
+        "交給 agent 安裝",
+        "在支援本機技能的 AI 工具中開啟或指定該資料夾；可附上資料夾或貼上完整路徑。將下方指令中的路徑換成你自己的。"
+      ]
+    ],
+    "requirements": "建議先用 Codex。你需要能讀取本機檔案、支援技能與搜尋／瀏覽的工具；可選計算僅需 Python 3 標準函式庫。使用私人群組 ZIP 不需取得私有 GitHub 儲存庫權限。",
+    "installprompt": "請從「填入解壓後技能資料夾的完整路徑」安裝 enterprise-operating-innovation-cycle 技能。先讀取 VERSION；已有同名技能時，保留本機修改及報告，只更新原安裝位置，不重複安裝。安裝後回報位置與版本，使用繁體中文。",
+    "confirmtitle": "安裝後確認",
+    "confirm": "請確認 enterprise-operating-innovation-cycle 已被技能系統辨識，版本為 0.2.11，然後使用 EOIC 分析 SNPS 最近五個已公布季度。",
+    "confirmnote": "讓 agent 確認載入的是技能，而不是只做一般財報摘要。如果技能清單沒有刷新，先重新開啟對話或重啟工具。",
+    "othernote": "以下同樣使用解壓後的本機資料夾，不必把私有 GitHub 網址貼給 agent。",
+    "claude": "在 Claude Code 開啟技能資料夾或提供完整路徑，再要求安裝。",
+    "claudeprompt": "請從「技能資料夾完整路徑」安裝為 Claude Code 個人技能 enterprise-operating-innovation-cycle；保留所有參考檔案，已有版本先保留本機修改，並確認安裝位置與 VERSION。",
+    "gemini": "Gemini 用戶可使用 Antigravity，開啟或指定技能資料夾後要求安裝、轉寫為 Antigravity Skill。",
+    "geminiprompt": "請將「技能資料夾完整路徑」安裝、轉寫為 Antigravity Skill；保留 EOIC 分析方法、語言規則及參考檔案，不改變分析要求。已有版本先保留本機修改，安裝後確認 VERSION。",
+    "grok": "若你使用的 Grok CLI／agent 支援本機技能，提供技能資料夾路徑並要求安裝。各 CLI 的技能支援不同，先由 agent 確認可用的安裝方式。",
+    "grokprompt": "請先確認目前工具是否支援本機技能；若支援，從「技能資料夾完整路徑」安裝 enterprise-operating-innovation-cycle，保留參考檔案與本機修改，並確認版本；若不支援，請說明限制。",
+    "activate": "安裝後，在對話輸入 EOIC 即可。這是技能啟動短語，不是終端機命令。",
+    "aliases": "也可使用：企業營運週期、企業創新週期、企業營運創新週期。",
+    "hint": "請輸入美股代號與季數（建議4～6季），或指定起訖年月。例如：WING 6季／WING 2022到2024/6。",
+    "afterhint": "接著輸入 SNPS 五季，或直接用下方完整指令。4～6 季是建議，不是限制；未指定期間會先詢問，指定「用預設」則取六季。",
+    "language": "明確指定語言優先，否則跟隨主要輸入語言；只有 EOIC 或代號時沿用對話語言，無法判定才用繁體中文。非英文術語首次附英文原名或縮寫，後續不重複。",
+    "examples": [
+      [
+        "一般研究",
+        "EOIC 分析 SNPS 最近五個已公布季度。"
+      ],
+      [
+        "聚焦創新",
+        "EOIC 分析 Visa 最近八季，判斷創新近期是否加速或轉變。"
+      ],
+      [
+        "歷史研究",
+        "EOIC 分析 WING 截至 2026-09-30 最近六個已公布季度。"
+      ],
+      [
+        "存到桌面",
+        "EOIC 分析 SFM 最近四季，存成 Markdown 到桌面。"
+      ]
+    ],
+    "datenote": "「起訖年月」選擇會計季度；「截至某日」限制當時已公開資料。未指定截止日則取執行當日可得資料。",
+    "updatetitle": "收到新版 ZIP 時",
+    "updatebody": "新版由 Austin 在私人群組提供。下載、解壓後，將新資料夾路徑交給 agent，更新原安裝位置；不要直接覆蓋自己的報告或修改。這個技能沒有自動更新服務。",
+    "updateprompt": "請從「新版技能資料夾完整路徑」更新已安裝的 enterprise-operating-innovation-cycle。先比較新舊 VERSION，保留本機修改與報告，只更新原安裝位置，完成後確認版本與技能辨識狀態。",
+    "licensehead": "使用授權",
+    "license": "本專案免費供個人非商業學習與研究。禁止商用、開課、販售及重新散布原版或修改版；可分享此公開說明頁連結。",
+    "versionnote": "本頁對應版本 0.2.11；安裝包的實際版本以資料夾內 VERSION 為準。",
+    "author": "作者",
+    "footer": "公開說明頁 · 技能與 ZIP 不在本頁公開",
+    "skip": "跳到主要內容"
+  },
+  "en": {
+    "file": "en.html",
+    "title": "Enterprise Operating & Innovation Cycle",
+    "tag": "EOIC USER GUIDE",
+    "lead": "From your ZIP file to your first research report.",
+    "desc": "Use quarterly financials and earnings calls to assess innovation acceleration, slowdown, monetization delays and recovery. Revenue growth and attractive margins alone do not prove innovation success.",
+    "nav": [
+      "What you get",
+      "Recommended models",
+      "Installation",
+      "Other AI services",
+      "Activate the skill",
+      "Examples",
+      "Updates & usage terms"
+    ],
+    "start": "Start installation",
+    "private": "Austin distributes the ZIP in the private group. No downloads are hosted here.",
+    "ver": "Current skill version",
+    "copy": "Copy prompt",
+    "copied": "Copied",
+    "failed": "Select the text and copy it manually",
+    "outcomes": [
+      "The stage, direction and speed of overall operations and each innovation path.",
+      "Quarterly revenue growth, gross-margin changes, operating margins, free cash flow and seasonal comparisons.",
+      "Recurring management KPIs and breaks in the investment → adoption → monetization → profit → cash flow chain.",
+      "Earliest warnings, confirmation quarters, strongest counterevidence and observable revision conditions.",
+      "Reinvestment-rate and ROIC calculations, formulas and definitions, with explicit data limitations."
+    ],
+    "outnote": "Valuation, share-price forecasts and trading advice are not added automatically.",
+    "modelnote": "Choose the model in your AI service settings. The skill does not switch models automatically; results can vary.",
+    "modelheaders": [
+      "Assessment",
+      "Model",
+      "Reasoning"
+    ],
+    "modelrows": [
+      [
+        "Preferred",
+        "GPT-6.1 sol",
+        "medium or low"
+      ],
+      [
+        "High standard in current testing",
+        "Opus5.5",
+        "high"
+      ],
+      [
+        "Inconsistent but usable",
+        "Grok4.7 / Gemini 3.1 pro",
+        "high"
+      ]
+    ],
+    "modelsource": "These recommendations and testing assessments are provided by the author.",
+    "steps": [
+      [
+        "Get and extract the ZIP",
+        "Download the version Austin shared in the private group. On Windows, use Extract All; on Mac, double-click the ZIP."
+      ],
+      [
+        "Find the skill folder",
+        "Locate the folder containing SKILL.md, METHODOLOGY.md and VERSION together. Keep the whole folder, not just SKILL.md."
+      ],
+      [
+        "Ask your agent to install",
+        "Open or specify that folder in a tool that supports local skills. Attach the folder or provide its full path. Replace the path placeholder below."
+      ]
+    ],
+    "requirements": "Start with Codex if possible. Your tool needs local-file access, skill support and web search/browsing. Optional calculations use only the Python 3 standard library. Installing the group ZIP does not require access to the private GitHub repository.",
+    "installprompt": "Install the enterprise-operating-innovation-cycle skill from “full path to the extracted skill folder”. Read VERSION first. If already installed, preserve local edits and reports, update the existing location and avoid duplicate installations. Report the installed path and version in English.",
+    "confirmtitle": "Confirm installation",
+    "confirm": "Confirm that enterprise-operating-innovation-cycle is recognized by the skill system and is version 0.2.11. Then use EOIC to analyze SNPS’s latest five reported quarters in English.",
+    "confirmnote": "Ask the agent to confirm actual skill loading, rather than producing a generic earnings summary. If discovery has not refreshed, reopen the conversation or restart the tool.",
+    "othernote": "Use the extracted local folder for these tools too. You do not need to give the agent the private GitHub URL.",
+    "claude": "Open the folder in Claude Code or provide its full path, then request installation.",
+    "claudeprompt": "Install “full path to the skill folder” as the Claude Code personal skill enterprise-operating-innovation-cycle. Keep all reference files and preserve existing local edits. Confirm the installation path and VERSION.",
+    "gemini": "Gemini users can use Antigravity. Open or specify the folder, then ask the agent to install and adapt it into an Antigravity Skill.",
+    "geminiprompt": "Install and adapt “full path to the skill folder” into an Antigravity Skill. Preserve the EOIC analysis method, language rules and reference files without changing the research requirements. Preserve existing local edits and confirm VERSION.",
+    "grok": "If your Grok CLI/agent supports local skills, provide the folder path and request installation. Skill support varies by CLI; ask the agent to confirm its supported installation method first.",
+    "grokprompt": "Check whether this tool supports local skills. If supported, install enterprise-operating-innovation-cycle from “full path to the skill folder”, preserving reference files and local edits, and confirm the version. Otherwise explain the limitation.",
+    "activate": "After installation, enter EOIC in the conversation. It is a skill activation phrase, not a terminal command.",
+    "aliases": "Aliases: enterprise operating cycle, enterprise innovation cycle, enterprise operating and innovation cycle. EOIC and English aliases are case-insensitive.",
+    "hint": "Enter a US ticker and quarter count (4–6 recommended), or a start/end date. For example: WING 6 quarters / WING 2022 to 2024/6.",
+    "afterhint": "Reply with SNPS 5 quarters, or use a complete prompt below. 4–6 quarters is a recommendation, not a limit. Missing periods are requested; “use the default” selects six quarters.",
+    "language": "Explicit language requests take priority; otherwise the main input language is used. EOIC-only or ticker-only requests follow the conversation language, with Traditional Chinese as the final fallback. Non-English terms include the English name or abbreviation only on first mention.",
+    "examples": [
+      [
+        "General research",
+        "EOIC Analyze SNPS’s latest five reported quarters in English."
+      ],
+      [
+        "Innovation focus",
+        "EOIC Analyze Visa’s latest eight reported quarters and assess whether innovation has accelerated or shifted."
+      ],
+      [
+        "Historical research",
+        "EOIC Analyze WING’s latest six reported quarters as of 2026-09-30."
+      ],
+      [
+        "Save to Desktop",
+        "EOIC Analyze SFM’s latest four reported quarters and save a Markdown report to my Desktop."
+      ]
+    ],
+    "datenote": "Date ranges select fiscal quarters; “as of” dates limit the publicly available information. Without a cutoff, analysis uses information available on the execution date.",
+    "updatetitle": "When you receive a new ZIP",
+    "updatebody": "Austin distributes new versions in the private group. Download and extract the new ZIP, then ask your agent to update the existing installation from the new folder. Preserve your own reports and edits. There is no automatic update service.",
+    "updateprompt": "Update the installed enterprise-operating-innovation-cycle skill from “full path to the new skill folder”. Compare old and new VERSION files first, preserve local edits and reports, update only the existing installation, and confirm the version and skill discovery status.",
+    "licensehead": "Usage terms",
+    "license": "Free for personal, non-commercial learning and research. Commercial use, teaching courses using the project, selling, and redistributing original or modified versions are prohibited. You may share this public guide’s link.",
+    "versionnote": "This guide corresponds to version 0.2.11. The VERSION file inside your package identifies its actual version.",
+    "author": "Author",
+    "footer": "Public guide · The skill and ZIP are not published here",
+    "skip": "Skip to content"
+  },
+  "zh-Hans": {
+    "file": "zh-cn.html",
+    "title": "企业营运与创新周期分析",
+    "tag": "EOIC 使用指南",
+    "lead": "从收到 ZIP 到完成第一份研究。",
+    "desc": "用多季财报和电话会议判断创新加速、减速、变现停滞或修复。收入增长和漂亮的利润率本身不代表创新成功。",
+    "nav": [
+      "会得到什么",
+      "建议模型",
+      "安装方法",
+      "更多 AI 服务安装方式",
+      "如何启动技能",
+      "使用示例",
+      "更新与授权"
+    ],
+    "start": "开始安装",
+    "private": "ZIP 由 Austin 在私人群组提供，本页不提供下载。",
+    "ver": "当前技能版本",
+    "copy": "复制指令",
+    "copied": "已复制",
+    "failed": "请选中文字后手动复制",
+    "outcomes": [
+      "整体营运与各条创新路径的阶段、方向、速度。",
+      "多季收入季增、毛利率变化、营业利润率、自由现金流及季节性比较。",
+      "管理层重复关注的指标，以及投入 → 采用 → 变现 → 利润 → 现金流的断点。",
+      "最早警讯、确认季度、最强反证及可观察的改判条件。",
+      "再投资率与投入资本回报率的计算、公式和口径，资料不足时明确列出限制。"
+    ],
+    "outnote": "不自动提供估值、股价预测或买卖建议。",
+    "modelnote": "请在 AI 服务的模型设置中自行选择。技能不会自动切换模型，不同模型的结果可能有差异。",
+    "modelheaders": [
+      "定位",
+      "模型",
+      "推理强度"
+    ],
+    "modelrows": [
+      [
+        "优先建议",
+        "GPT-6.1 sol",
+        "medium 或 low"
+      ],
+      [
+        "当前测试达到高标准",
+        "Opus5.5",
+        "high"
+      ],
+      [
+        "尚不稳定但可用",
+        "Grok4.7 / Gemini 3.1 pro",
+        "high"
+      ]
+    ],
+    "modelsource": "以上为作者当前的使用建议与测试评价。",
+    "steps": [
+      [
+        "获取 ZIP 并解压",
+        "从私人群组下载 Austin 提供的版本。Windows 使用“全部解压缩”；Mac 双击 ZIP。"
+      ],
+      [
+        "找到技能文件夹",
+        "找到同一层包含 SKILL.md、METHODOLOGY.md、VERSION 的文件夹。保留整个文件夹，不要只取 SKILL.md。"
+      ],
+      [
+        "交给 agent 安装",
+        "在支持本地技能的工具中打开或指定该文件夹，可附上文件夹或提供完整路径。将下方指令中的路径替换为自己的。"
+      ]
+    ],
+    "requirements": "建议先用 Codex。工具需要本地文件读取、技能支持和搜索／浏览能力。可选计算仅需 Python 3 标准库。使用群组 ZIP 无需私有 GitHub 仓库权限。",
+    "installprompt": "请从“填入解压后技能文件夹的完整路径”安装 enterprise-operating-innovation-cycle 技能。先读取 VERSION；已有同名技能时，保留本地修改与报告，只更新原安装位置，不重复安装。完成后回报位置与版本，使用简体中文。",
+    "confirmtitle": "安装后确认",
+    "confirm": "请确认 enterprise-operating-innovation-cycle 已被技能系统识别，版本为 0.2.11，然后使用 EOIC 分析 SNPS 最近五个已公布季度，用简体中文。",
+    "confirmnote": "请 agent 确认实际加载了技能，而非仅做一般财报摘要。技能列表未刷新时，重新打开对话或重启工具。",
+    "othernote": "以下同样使用解压后的本地文件夹，不必提供私有 GitHub 网址。",
+    "claude": "在 Claude Code 打开技能文件夹或提供完整路径，再要求安装。",
+    "claudeprompt": "请从“技能文件夹完整路径”安装为 Claude Code 个人技能 enterprise-operating-innovation-cycle；保留全部参考文件和已有本地修改，确认安装位置与 VERSION。",
+    "gemini": "Gemini 用户可使用 Antigravity，打开或指定文件夹后要求安装、改写为 Antigravity Skill。",
+    "geminiprompt": "请将“技能文件夹完整路径”安装、改写为 Antigravity Skill，保留 EOIC 分析方法、语言规则和参考文件，不改变分析要求；保留已有本地修改，确认 VERSION。",
+    "grok": "若使用的 Grok CLI／agent 支持本地技能，提供文件夹路径并要求安装。不同 CLI 支持不同，先由 agent 确认可用安装方式。",
+    "grokprompt": "请先确认本工具是否支持本地技能；若支持，从“技能文件夹完整路径”安装 enterprise-operating-innovation-cycle，保留参考文件和本地修改，并确认版本；否则说明限制。",
+    "activate": "安装后，在对话输入 EOIC。这是技能启动短语，不是终端命令。",
+    "aliases": "也可使用：企业营运周期、企业创新周期、企业营运创新周期。",
+    "hint": "请输入美股代码与季数（建议4～6季），或指定起止年月。例如：WING 6季／WING 2022到2024/6。",
+    "afterhint": "接着输入 SNPS 五季，或使用下方完整指令。4～6 季是建议，不是限制；未指定期间会先询问，“用默认”则选择六季。",
+    "language": "明确指定语言优先，否则跟随主要输入语言；只有 EOIC 或代码时沿用对话语言，无法判断才用繁体中文。非英文术语首次附英文名称或缩写，后续不重复。",
+    "examples": [
+      [
+        "一般研究",
+        "EOIC 分析 SNPS 最近五个已公布季度，用简体中文。"
+      ],
+      [
+        "聚焦创新",
+        "EOIC 分析 Visa 最近八季，判断创新近期是否加速或转变。"
+      ],
+      [
+        "历史研究",
+        "EOIC 分析 WING 截至 2026-09-30 最近六个已公布季度。"
+      ],
+      [
+        "保存到桌面",
+        "EOIC 分析 SFM 最近四季，保存 Markdown 报告到桌面。"
+      ]
+    ],
+    "datenote": "起止年月选择会计季度；“截至某日”限制当时已公开资料。不指定截止日则取执行当天可得信息。",
+    "updatetitle": "收到新版 ZIP 时",
+    "updatebody": "新版由 Austin 在私人群组提供。下载并解压后，将新文件夹路径交给 agent，更新原安装位置，保留自己的报告和修改。没有自动更新服务。",
+    "updateprompt": "请从“新版技能文件夹完整路径”更新已安装的 enterprise-operating-innovation-cycle。先比较新旧 VERSION，保留本地修改和报告，只更新原安装位置，完成后确认版本与技能识别状态。",
+    "licensehead": "使用授权",
+    "license": "本项目免费供个人非商业学习与研究。禁止商用、开课、销售及重新分发原版或修改版；可以分享本公开说明页链接。",
+    "versionnote": "本页对应 0.2.11；安装包的实际版本以文件夹内 VERSION 为准。",
+    "author": "作者",
+    "footer": "公开说明页 · 技能与 ZIP 不在本页公开",
+    "skip": "跳到主要内容"
+  },
+  "ko": {
+    "file": "ko.html",
+    "title": "기업 운영 및 혁신 주기 분석",
+    "tag": "EOIC 사용 가이드",
+    "lead": "ZIP 파일에서 첫 분석 보고서까지.",
+    "desc": "여러 분기의 재무제표와 실적 발표를 통해 혁신의 가속, 둔화, 수익화 지연과 회복을 판단합니다. 매출 성장과 높은 이익률만으로 혁신의 성공을 판단하지 않습니다.",
+    "nav": [
+      "제공되는 분석",
+      "권장 모델",
+      "설치 방법",
+      "다른 AI 서비스 설치",
+      "스킬 시작",
+      "사용 예시",
+      "업데이트 및 사용 조건"
+    ],
+    "start": "설치 시작",
+    "private": "ZIP은 Austin이 비공개 그룹에서 제공합니다. 이 페이지에는 다운로드가 없습니다.",
+    "ver": "현재 스킬 버전",
+    "copy": "프롬프트 복사",
+    "copied": "복사됨",
+    "failed": "텍스트를 선택하여 직접 복사해 주세요",
+    "outcomes": [
+      "전체 운영과 각 혁신 경로의 단계, 방향, 속도.",
+      "분기 매출 증가율, 매출총이익률 변화, 영업이익률, 잉여현금흐름과 계절성 비교.",
+      "경영진의 반복 지표와 투자 → 채택 → 수익화 → 이익 → 현금흐름의 단절 지점.",
+      "최초 경고, 확인 분기, 가장 강한 반대 증거와 판단 수정 조건.",
+      "재투자율 및 투하자본수익률 계산, 공식과 기준, 데이터 부족에 따른 한계."
+    ],
+    "outnote": "가치평가, 주가 예측이나 매매 조언을 자동으로 추가하지 않습니다.",
+    "modelnote": "AI 서비스 설정에서 모델을 직접 선택하세요. 스킬은 모델을 자동 변경하지 않으며 결과는 모델마다 다를 수 있습니다.",
+    "modelheaders": [
+      "평가",
+      "모델",
+      "추론 강도"
+    ],
+    "modelrows": [
+      [
+        "우선 권장",
+        "GPT-6.1 sol",
+        "medium 또는 low"
+      ],
+      [
+        "현재 테스트에서 높은 기준 충족",
+        "Opus5.5",
+        "high"
+      ],
+      [
+        "일관적이지 않지만 사용 가능",
+        "Grok4.7 / Gemini 3.1 pro",
+        "high"
+      ]
+    ],
+    "modelsource": "위 권장 사항과 테스트 평가는 작성자가 제공한 것입니다.",
+    "steps": [
+      [
+        "ZIP 다운로드 및 압축 해제",
+        "비공개 그룹에서 Austin이 제공한 버전을 받으세요. Windows에서는 모두 압축 풀기, Mac에서는 ZIP을 두 번 클릭합니다."
+      ],
+      [
+        "스킬 폴더 찾기",
+        "SKILL.md, METHODOLOGY.md, VERSION이 같은 위치에 있는 폴더를 찾으세요. SKILL.md만 떼어내지 말고 전체 폴더를 유지하세요."
+      ],
+      [
+        "에이전트에게 설치 요청",
+        "로컬 스킬을 지원하는 도구에서 해당 폴더를 열거나 전체 경로를 지정하세요. 아래 경로를 자신의 경로로 바꾸세요."
+      ]
+    ],
+    "requirements": "가능하면 Codex로 시작하세요. 로컬 파일 접근, 스킬 지원, 웹 검색 기능이 필요합니다. 선택적 계산에는 Python 3 표준 라이브러리만 필요합니다. 그룹 ZIP 설치에는 비공개 GitHub 저장소 권한이 필요하지 않습니다.",
+    "installprompt": "“압축을 푼 스킬 폴더의 전체 경로”에서 enterprise-operating-innovation-cycle 스킬을 설치해 주세요. VERSION을 먼저 읽고, 기존 설치가 있으면 로컬 수정과 보고서를 보존하면서 기존 위치만 업데이트하세요. 중복 설치하지 말고 설치 경로와 버전을 한국어로 알려 주세요.",
+    "confirmtitle": "설치 확인",
+    "confirm": "enterprise-operating-innovation-cycle이 스킬 시스템에서 인식되고 버전이 0.2.11인지 확인한 뒤, EOIC로 SNPS의 최근 공시된 5개 분기를 한국어로 분석해 주세요.",
+    "confirmnote": "일반 실적 요약이 아닌 실제 스킬 로딩을 확인해 달라고 요청하세요. 목록이 갱신되지 않으면 대화를 다시 열거나 도구를 재시작하세요.",
+    "othernote": "다른 도구에서도 압축을 푼 로컬 폴더를 사용합니다. 비공개 GitHub URL을 제공할 필요가 없습니다.",
+    "claude": "Claude Code에서 스킬 폴더를 열거나 전체 경로를 제공한 뒤 설치를 요청하세요.",
+    "claudeprompt": "“스킬 폴더 전체 경로”를 Claude Code 개인 스킬 enterprise-operating-innovation-cycle로 설치해 주세요. 모든 참조 파일과 기존 로컬 수정을 보존하고 설치 위치와 VERSION을 확인해 주세요.",
+    "gemini": "Gemini 사용자는 Antigravity에서 폴더를 열거나 지정하고 Antigravity Skill로 설치 및 변환을 요청할 수 있습니다.",
+    "geminiprompt": "“스킬 폴더 전체 경로”를 Antigravity Skill로 설치하고 변환해 주세요. EOIC 분석 방법, 언어 규칙과 참조 파일을 유지하고 분석 요구 사항은 변경하지 마세요. 기존 로컬 수정을 보존하고 VERSION을 확인해 주세요.",
+    "grok": "사용하는 Grok CLI/에이전트가 로컬 스킬을 지원하면 폴더 경로를 제공하여 설치하세요. CLI마다 지원이 다르므로 먼저 에이전트에게 설치 방법을 확인해 달라고 요청하세요.",
+    "grokprompt": "이 도구가 로컬 스킬을 지원하는지 먼저 확인해 주세요. 지원하면 “스킬 폴더 전체 경로”에서 enterprise-operating-innovation-cycle을 설치하고 참조 파일과 로컬 수정을 보존한 뒤 버전을 확인해 주세요. 지원하지 않으면 한계를 설명해 주세요.",
+    "activate": "설치 후 대화에 EOIC를 입력하세요. 터미널 명령이 아닌 스킬 시작 문구입니다.",
+    "aliases": "별칭: 기업 운영 주기, 기업 혁신 주기, 기업 운영 및 혁신 주기.",
+    "hint": "미국 주식 종목 코드와 분기 수(4~6개 권장), 또는 시작·종료 기간을 입력하세요. 예: WING 6 quarters / WING 2022 to 2024/6.",
+    "afterhint": "SNPS 5 quarters로 답하거나 아래 전체 프롬프트를 사용하세요. 4~6개는 권장일 뿐 제한이 아닙니다. 기간이 없으면 질문하며 기본값은 6개 분기입니다.",
+    "language": "명시한 언어가 우선이며 그다음 입력의 주된 언어를 따릅니다. EOIC나 종목 코드만 있으면 대화 언어를 사용하고 판단 불가 시 번체 중국어를 사용합니다. 비영어 용어는 첫 등장에만 영어 명칭이나 약어를 덧붙입니다.",
+    "examples": [
+      [
+        "일반 분석",
+        "EOIC SNPS의 최근 공시된 5개 분기를 한국어로 분석해 주세요."
+      ],
+      [
+        "혁신 집중 분석",
+        "EOIC Visa의 최근 8개 분기를 분석하고 혁신이 가속되거나 전환되었는지 판단해 주세요."
+      ],
+      [
+        "과거 분석",
+        "EOIC 2026-09-30 기준 WING의 최근 공시된 6개 분기를 분석해 주세요."
+      ],
+      [
+        "데스크톱에 저장",
+        "EOIC SFM의 최근 4개 분기를 분석하고 Markdown 보고서를 데스크톱에 저장해 주세요."
+      ]
+    ],
+    "datenote": "기간은 회계 분기를 선택하며 기준일은 당시 공개된 정보만 사용하도록 제한합니다. 기준일이 없으면 실행 당일에 공개된 정보를 사용합니다.",
+    "updatetitle": "새 ZIP을 받았을 때",
+    "updatebody": "새 버전은 Austin이 비공개 그룹에서 제공합니다. 다운로드하고 압축을 푼 뒤 새 폴더에서 기존 설치를 업데이트하도록 요청하세요. 개인 보고서와 수정 사항은 보존하세요. 자동 업데이트 서비스는 없습니다.",
+    "updateprompt": "“새 스킬 폴더 전체 경로”에서 설치된 enterprise-operating-innovation-cycle을 업데이트해 주세요. 신구 VERSION을 비교하고 로컬 수정과 보고서를 보존하며 기존 설치 위치만 업데이트한 뒤 버전과 스킬 인식 상태를 확인해 주세요.",
+    "licensehead": "사용 조건",
+    "license": "개인의 비상업적 학습과 연구를 위해 무료로 사용할 수 있습니다. 상업적 이용, 프로젝트를 활용한 강의 개설, 판매 및 원본이나 수정본의 재배포는 금지됩니다. 이 공개 가이드의 링크는 공유할 수 있습니다.",
+    "versionnote": "이 가이드는 0.2.11에 해당합니다. 실제 설치 패키지 버전은 폴더의 VERSION 파일을 확인하세요.",
+    "author": "작성자",
+    "footer": "공개 가이드 · 스킬과 ZIP은 여기서 공개하지 않습니다",
+    "skip": "본문으로 건너뛰기"
+  }
+}
