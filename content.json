@@ -12,6 +12,7 @@
       "更多 AI 服務安裝方式",
       "如何啟動技能",
       "使用範例",
+      "開發權限",
       "更新與授權"
     ],
     "start": "開始安裝",
@@ -110,7 +111,9 @@
     "versionnote": "本頁對應版本 0.2.11；安裝包的實際版本以資料夾內 VERSION 為準。",
     "author": "作者",
     "footer": "公開說明頁 · 技能與 ZIP 不在本頁公開",
-    "skip": "跳到主要內容"
+    "skip": "跳到主要內容",
+    "developmenttitle": "開發權限",
+    "developmentbody": "想協助開發的同學，請私下跟 Austin 聯絡索取。"
   },
   "en": {
     "file": "en.html",
@@ -125,6 +128,7 @@
       "Other AI services",
       "Activate the skill",
       "Examples",
+      "Development access",
       "Updates & usage terms"
     ],
     "start": "Start installation",
@@ -223,7 +227,9 @@
     "versionnote": "This guide corresponds to version 0.2.11. The VERSION file inside your package identifies its actual version.",
     "author": "Author",
     "footer": "Public guide · The skill and ZIP are not published here",
-    "skip": "Skip to content"
+    "skip": "Skip to content",
+    "developmenttitle": "Development access",
+    "developmentbody": "Students who would like to help with development can contact Austin privately to request access."
   },
   "zh-Hans": {
     "file": "zh-cn.html",
@@ -238,6 +244,7 @@
       "更多 AI 服务安装方式",
       "如何启动技能",
       "使用示例",
+      "开发权限",
       "更新与授权"
     ],
     "start": "开始安装",
@@ -336,7 +343,9 @@
     "versionnote": "本页对应 0.2.11；安装包的实际版本以文件夹内 VERSION 为准。",
     "author": "作者",
     "footer": "公开说明页 · 技能与 ZIP 不在本页公开",
-    "skip": "跳到主要内容"
+    "skip": "跳到主要内容",
+    "developmenttitle": "开发权限",
+    "developmentbody": "想协助开发的同学，请私下联系 Austin 索取开发权限。"
   },
   "ko": {
     "file": "ko.html",
@@ -351,6 +360,7 @@
       "다른 AI 서비스 설치",
       "스킬 시작",
       "사용 예시",
+      "개발 참여 권한",
       "업데이트 및 사용 조건"
     ],
     "start": "설치 시작",
@@ -449,6 +459,8 @@
     "versionnote": "이 가이드는 0.2.11에 해당합니다. 실제 설치 패키지 버전은 폴더의 VERSION 파일을 확인하세요.",
     "author": "작성자",
     "footer": "공개 가이드 · 스킬과 ZIP은 여기서 공개하지 않습니다",
-    "skip": "본문으로 건너뛰기"
+    "skip": "본문으로 건너뛰기",
+    "developmenttitle": "개발 참여 권한",
+    "developmentbody": "개발에 참여하고 싶은 수강생은 Austin에게 개인적으로 연락하여 권한을 요청해 주세요."
   }
 }
