@@ -16,7 +16,7 @@
       "更新與授權"
     ],
     "start": "開始安裝",
-    "private": "ZIP 由 Austin 在私人群組提供，本頁不提供下載。",
+    "private": "Skills技能安裝檔案 由 Austin 在Discord群組提供，本頁不提供下載。",
     "ver": "目前技能版本",
     "copy": "複製指令",
     "copied": "已複製",
@@ -50,9 +50,14 @@
         "尚不穩定但堪用",
         "Grok4.7 / Gemini 3.1 pro",
         "high"
+      ],
+      [
+        "尚未測試",
+        "MetaMuse",
+        "—"
       ]
     ],
-    "modelsource": "上述為作者目前的使用建議與測試評價。",
+    "modelsource": "上述為作者目前的使用建議與測試評價。若你有測試其他模型，也歡迎回饋使用意見。",
     "steps": [
       [
         "取得 Skill 連結",
@@ -113,7 +118,7 @@
     "footer": "公開說明頁 · 技能與 ZIP 不在本頁公開",
     "skip": "跳到主要內容",
     "developmenttitle": "開發權限",
-    "developmentbody": "想協助開發的同學，請私下跟 Austin 聯絡索取。"
+    "developmentbody": "使用上有疑難或建議，請在Discord群內討論。\n\n如想直接協助開發或更新Skill的同學，請私下跟 Austin 聯絡索取Github協作者權限。"
   },
   "en": {
     "file": "en.html",
@@ -132,7 +137,7 @@
       "Updates & usage terms"
     ],
     "start": "Start installation",
-    "private": "Austin distributes the ZIP in the private group. No downloads are hosted here.",
+    "private": "Austin provides the Skills installation files in the Discord group. No downloads are provided on this page.",
     "ver": "Current skill version",
     "copy": "Copy prompt",
     "copied": "Copied",
@@ -166,9 +171,14 @@
         "Inconsistent but usable",
         "Grok4.7 / Gemini 3.1 pro",
         "high"
+      ],
+      [
+        "Not yet tested",
+        "MetaMuse",
+        "—"
       ]
     ],
-    "modelsource": "These recommendations and testing assessments are provided by the author.",
+    "modelsource": "These recommendations and testing assessments are provided by the author. If you have tested other models, feedback on your experience is welcome.",
     "steps": [
       [
         "Get the Skill link",
@@ -229,7 +239,7 @@
     "footer": "Public guide · The skill and ZIP are not published here",
     "skip": "Skip to content",
     "developmenttitle": "Development access",
-    "developmentbody": "Students who would like to help with development can contact Austin privately to request access."
+    "developmentbody": "Discuss any questions or suggestions about using the skill in the Discord group.\n\nStudents who would like to help develop or update the Skill can contact Austin privately to request GitHub collaborator access."
   },
   "zh-Hans": {
     "file": "zh-cn.html",
@@ -248,7 +258,7 @@
       "更新与授权"
     ],
     "start": "开始安装",
-    "private": "ZIP 由 Austin 在私人群组提供，本页不提供下载。",
+    "private": "Skills技能安装文件 由 Austin 在Discord群组提供，本页不提供下载。",
     "ver": "当前技能版本",
     "copy": "复制指令",
     "copied": "已复制",
@@ -282,9 +292,14 @@
         "尚不稳定但可用",
         "Grok4.7 / Gemini 3.1 pro",
         "high"
+      ],
+      [
+        "尚未测试",
+        "MetaMuse",
+        "—"
       ]
     ],
-    "modelsource": "以上为作者当前的使用建议与测试评价。",
+    "modelsource": "以上为作者当前的使用建议与测试评价。如果你测试了其他模型，也欢迎反馈使用意见。",
     "steps": [
       [
         "获取 Skill 链接",
@@ -345,7 +360,7 @@
     "footer": "公开说明页 · 技能与 ZIP 不在本页公开",
     "skip": "跳到主要内容",
     "developmenttitle": "开发权限",
-    "developmentbody": "想协助开发的同学，请私下联系 Austin 索取开发权限。"
+    "developmentbody": "使用中有疑问或建议，请在Discord群内讨论。\n\n如想直接协助开发或更新Skill的同学，请私下联系 Austin，申请Github协作者权限。"
   },
   "ko": {
     "file": "ko.html",
@@ -364,7 +379,7 @@
       "업데이트 및 사용 조건"
     ],
     "start": "설치 시작",
-    "private": "ZIP은 Austin이 비공개 그룹에서 제공합니다. 이 페이지에는 다운로드가 없습니다.",
+    "private": "Skills 설치 파일은 Austin이 Discord 그룹에서 제공합니다. 이 페이지에서는 다운로드를 제공하지 않습니다.",
     "ver": "현재 스킬 버전",
     "copy": "프롬프트 복사",
     "copied": "복사됨",
@@ -398,9 +413,14 @@
         "일관적이지 않지만 사용 가능",
         "Grok4.7 / Gemini 3.1 pro",
         "high"
+      ],
+      [
+        "아직 테스트하지 않음",
+        "MetaMuse",
+        "—"
       ]
     ],
-    "modelsource": "위 권장 사항과 테스트 평가는 작성자가 제공한 것입니다.",
+    "modelsource": "위 권장 사항과 테스트 평가는 작성자가 제공한 것입니다. 다른 모델을 테스트했다면 사용 경험에 대한 의견도 환영합니다.",
     "steps": [
       [
         "Skill 링크 받기",
@@ -461,6 +481,6 @@
     "footer": "공개 가이드 · 스킬과 ZIP은 여기서 공개하지 않습니다",
     "skip": "본문으로 건너뛰기",
     "developmenttitle": "개발 참여 권한",
-    "developmentbody": "개발에 참여하고 싶은 수강생은 Austin에게 개인적으로 연락하여 권한을 요청해 주세요."
+    "developmentbody": "사용 중 궁금한 점이나 제안이 있으면 Discord 그룹에서 논의해 주세요.\n\nSkill 개발이나 업데이트에 직접 참여하고 싶은 수강생은 Austin에게 개인적으로 연락하여 GitHub 공동 작업자 권한을 요청해 주세요."
   }
 }
